@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>War game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<header class="header"></header>
+<body>
+    
+    <button type="button" class="button new_card">Deal</button>
+    <button type="button" class="button add_card hidden">Deal new cards</button>
+    <p class="draw hidden">Draw - deal new cards</p>
+<div class="container">  
+    <div class="plyr1">
+        <h2 class="name1"></h2>
+        <div class="card_plyr1"></div>
+        <div class="no_cards_player1"></div><br>
+        <div class="win1 hidden"></div>
+    </div>
+    
+
+    <div class="plyr2">
+        <h2 class="name2"></h2>
+        <div class="card_plyr2"></div>
+        <div class="ply2_2nd_card"></div>
+        <div class="no_cards_player2"></div><br>
+        <div class="win2 hidden"></div>
+    </div>
+    
+</div>
+
+    <div class="winner"></div>
+
+    <button type="button" class="button new_game hidden">New game</button>
+    <footer class="footer">
+        <a href="rules.html">Rules of the game</a>
+    </footer>
+    
+<script
+    src="http://code.jquery.com/jquery-3.1.1.slim.js"
+    integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
+    crossorigin="anonymous">
+</script>
+    <script src="war_game.js"></script> 
+</body>
+</html>
